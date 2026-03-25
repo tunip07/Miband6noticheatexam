@@ -2,7 +2,7 @@ import time
 import requests
 from flask import Flask, request
 
-TOKEN = "8464535245:AAF3mUMIrJfo4urD-A36XwENTzO2Qh9jLg8"
+TOKEN = ""
 API_URL = f"https://api.telegram.org/bot{TOKEN}"
 
 app = Flask(__name__)
